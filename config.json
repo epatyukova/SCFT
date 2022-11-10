@@ -1,0 +1,47 @@
+{
+  "ensemble" : "canonical",	
+  "en-comment" : "ensemble can be 'canonical' or 'grand'",
+   
+  "chi" : 9.0,
+  "chi-comment": "chi is a product chi N",
+         
+  "structure" : "HEX",
+  "structure-comment": "possible entries are LAM, HEX, GYR or BCC",
+  
+  "D": 1.5,
+  "D-comment": "starting guess for the period of microstructure",
+  
+  "nm": 64,
+  "nm-comment": "nm is a number of collocation points along non-dummy axes",
+  		
+  "nl": 100,
+  "nl-comment": "length of one block. The total length of the chain ns=nl*nblocks",
+  
+  "nblocks": 2,
+  "nblocks-comment": "number of blocks in each component of the mixture",
+  	
+  "comp": 0.5,
+  "comp-comment": "comp is a fraction of A-segments in all chains",
+  
+  "lambda": 0.3,
+  "lambda-comment": "lambda is a lambda-parameter characterising composition of the mixture",
+
+  "nh": 10,
+  "nh-comment": "Number of histories in Anderson mixing",
+  
+  "A_field_file": "some.npy",
+  "A-field-comment": "The name of the file with A-field or 'false'",
+  
+  "B_field_file": "False",
+  "B-field-comment": "The name of the file with B-field or 'false'",
+  
+  "z_file": "z-file.txt",
+  "z_file-comment": "Text file with activities",
+  
+  "A_save_field_file": "wa-save-9-32.npy",
+  "A-field-comment": "The name of the file to save calculated A-field",
+  
+  "B_save_field_file": "wb-save-9-32.npy",
+  "B-field-comment": "The name of the file to save calculated B-field"	
+          		
+}
